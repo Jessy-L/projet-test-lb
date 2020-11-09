@@ -14,7 +14,7 @@ function verif(){
     console.log(text_stock)
     
     for(i = 0; i < text_stock.length ; i++ ){
-      if(i%2 != 0){
+      if(i%2 != 0){ // test
         let stock = text_stock[i] * 2 
         text_stock.splice(i, 1 , stock)
 
